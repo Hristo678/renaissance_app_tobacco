@@ -10,9 +10,9 @@ const Navbar = () => {
   return (
     <div>
     
-    <nav className="w-full flex py-6 justify-center items-center navbar">
+    <nav className="w-full flex py-6 justify-center items-center navbar ">
         
-    <div className="absolute left-1/2 transform -translate-x-1/2">
+    <div className="absolute left-1/2 transform -translate-x-1/2 pt-40">
         <img src={renaissance} alt="hoobank" className="w-[300px]" />
 
         </div>
