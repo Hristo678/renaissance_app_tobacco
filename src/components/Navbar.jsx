@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-import {  renaissance } from "../assets";
+import {  renaissanceTransparent } from "../assets";
 import { navLinks } from "../constants";
 
 const Navbar = () => {
@@ -13,7 +13,7 @@ const Navbar = () => {
     <nav className="w-full flex py-6 justify-center items-center navbar ">
         
     <div className="absolute left-1/2 transform -translate-x-1/2 pt-40">
-        <img src={renaissance} alt="hoobank" className="w-[300px]" />
+        <img src={renaissanceTransparent} alt="hoobank" className="w-[300px]" />
 
         </div>
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
